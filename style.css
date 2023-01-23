@@ -1,0 +1,73 @@
+body {
+    font-family: serif, "times new roman", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact {
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.contact:hover {
+    background-color: lightslategray;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+
+.first-container,
+.second-container {
+    border: 2px solid wheat;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+#themes {
+    border-radius: 100px;
+}
+
+li {
+    padding: 6px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-info {
+    border: 2px solid wheat;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.contact-info-1 {
+    padding-left: 20px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    margin-left: 250px;
+    border-radius: 300px;
+}
+
+.homepage {
+    padding-bottom: 50px;
+    padding-left: 30px;
+}

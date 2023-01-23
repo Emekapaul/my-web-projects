@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+    
+        <h1>My web projects</h1> 
+
+        <div class="header">
+            <button class="contact"><a class="contact-link" href="contact.html">Contact</a></button>
+
+            <select id="themes"> 
+            <option value="">Themes</option>
+            <option value="darktheme">Dark theme</option>
+            <option value="whitetheme">White theme</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="first-container">
+        <p>my name is ugwuoke paul Nnaemeka, i am 26 years old. I am a graduate of psychlogy from the university of ibadan, Nigeria.
+        I started my journey as a web developer a year ago. I picked interest in web development because i have always been interested in how things work,
+        How are the things that show up in the internet work, How did it come to be and what made it possible. It is more of like a passion for me.
+        </p>
+
+        <p>The road to becoming a web developer has not been easy. What i have been doing mostly is self learning. I source for materials and resources in the web and use it to practice and teach myself.
+        It has not been easy because i have been the one teaching myself but i look forward to finding an organisation where i can learn and upgrade my skills
+        </p>
+
+        <p>This is a website i created to show projects i have done so far in the journey of becoming a web developer, Projects that i am currently doing and projects 
+        that i plan to do in the future. With time as i upgrade my skills this website will be updated to show projects i have completed, 
+        projects i am currently working on and projects i plan to work on in the future.
+        </p>
+    </div>
+     
+
+    <div class="second-container">
+        <h2>Projects i am currently working on</h2>
+        <ul>
+            <li>Food Website. This a website that shows how to prepare various delicacies across the globe.
+            <a href="Emekapaul.github.io/odin-recipes">Click this link to view the website.</a>
+            </li>
+            <li>Gaming Website. This is a site that shows pc game lovers where they can download pc games.
+            <a href="Emekapaul.github.io/best-video-games">Click this link to view the website.</a>
+            </li>
+            </ul>
+    </div>
+
+    
+
+     <script>
+        const select = document.querySelector('#themes');
+        const html = document.querySelector('html')
+        
+
+
+        select.addEventListener('change', () => {
+            const choice = select.value;
+            if (choice === "darktheme") {
+                html.style.backgroundColor = 'black';
+                html.style.color = 'white';
+            } else {
+                html.style.backgroundColor = 'white';
+                html.style.color = 'black'; 
+            }
+        })
+     </script>
+    
+</body>
+</html>
